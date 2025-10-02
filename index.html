@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .tamanho{
+            width: 45%;
+            height: 50vh;
+            margin: 2%;
+            border: 2px solid black;
+            display: inline-block;
+            text-align: center;
+            background-color: rgb(158, 236, 241);
+        }
+
+        header{
+            background-image: linear-gradient(to left, rgb(0,162,255),rgb(158,236,241));
+        }
+        #cx1{
+            background-image: url(senac.png);
+        }
+        #cx2{
+            background-image: url(https://i.pinimg.com/736x/d3/ff/8c/d3ff8c750972291bed28856d4b097eb9.jpg);
+        }
+
+        #cx3{
+            background-image: url(senac.png);
+            background-repeat: no-repeat;
+        }
+
+        #cx4{
+            background-image: url(senac.png);
+            background-repeat: repeat-x;
+        }
+
+        #cx5{
+            background-image: url(senac.png);
+            background-repeat: repeat-y;
+        }
+        #cx6{
+            background-image: url(senac.png);
+            background-position: left top;
+            background-repeat: no-repeat;
+        }
+        #cx7{
+            background-image: url(senac.png);
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+        #cx8{
+            background-image: url(senac.png);
+            background-position: right top;
+            background-repeat: no-repeat;
+        }
+        #cx9{
+            background-image: url(senac.png);
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
+        #cx10{
+            background-image: url(senac.png);
+            background-position: right bottom;
+            background-repeat: no-repeat;
+        }
+        #cx11{
+            background-image: url(senac.png);
+            background-position: center bottom;
+            background-repeat: no-repeat;
+        }
+        #cx12{
+            background-image: url(senac.png);
+            background-position: left bottom;
+            background-repeat: no-repeat;
+        }
+        #cx13{
+            background-image: url(senac.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+        #cx14{
+            background-image: url(senac.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        
+        #cx15{
+            background-image: url(senac.png);
+            background-position:center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #cx16{
+            background-image: url(senac.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        #cx17{
+            background-image: url(senac.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 50%;
+        }
+        #cx18{
+            background-image: url(senac.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 50% 100%;
+        }
+        #cx19{
+            background-image: url(senac.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 50%;
+        }
+        #cx20{
+            background-image: url(senac.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main{
+            background-image: url(senac.png);
+            background-size: 50px;
+            margin: 7%;
+            background-attachment: fixed;
+        }
+        body{
+            background-image: url(senac.png);
+            background-size: 15px;
+            background-attachment: scroll;
+            /* o background rola junto com o conteudo*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>inserir Imagens de fundo background</h1>
+        <p>Para inserirmos o background no css vamos utilizar o background imagem</p>
+        <p>Depois vamos inserir a url()</p>
+        <p>O nome completo da imagem (inclusive com o caminho da pasta)</p>
+        <p>link da imagem (este é um link externo)</p>
+
+    </header>
+
+    <main>
+        <div class="tamanho" id="cx1"><h2>Imagem inserida com o nome</h2></div>
+        <div class="tamanho" id="cx2"><h2>Imagem inserida com a url externa</h2></div>
+        <div class="tamanho" id="cx3"><h2>Sem repetição da imagem</h2></div>
+        <div class="tamanho" id="cx4"><h2>Com repetição na horizontal</h2></div>
+        <div class="tamanho" id="cx5"><h2>Com repetição na vertical</h2></div>
+        <div class="tamanho" id="cx6"><h2>Alinhado a esquerda superior</h2></div>
+        <div class="tamanho" id="cx7"><h2>Alinhado ao centro superior</h2></div>
+        <div class="tamanho" id="cx8"><h2>Alinhado a direita superior</h2></div>
+        <div class="tamanho" id="cx9"><h2>Alinhado a direita no centro</h2></div>
+        <div class="tamanho" id="cx10"><h2>Alinhado a direita inferior</h2></div>
+        <div class="tamanho" id="cx11"><h2>Alinhado ao centro inferior</h2></div>
+        <div class="tamanho" id="cx12"><h2>Alinhado a esquerda inferior</h2></div>
+        <div class="tamanho" id="cx13"><h2>Alinhado a a esquerda no centro</h2></div>
+        <div class="tamanho" id="cx14"><h2>Alinhado ao centro</h2></div>
+        <div class="tamanho" id="cx15"><h2>Ajustado 100% da largura</h2></div>
+        <div class="tamanho" id="cx16"><h2>Ajustado 100% na Vertical e horizontal</h2></div>
+        <div class="tamanho" id="cx17"><h2>Ajustado com 100% de largura e 50% de altura</h2></div>
+        <div class="tamanho" id="cx18"><h2>Ajusta com 50% de largura e 100% altura</h2></div>
+        <div class="tamanho" id="cx19"><h2>Ajusta a imagem 100% exibida sem corte</h2></div>
+        <div class="tamanho" id="cx20"><h2>Ajusta a imagem sem distorcer com alguns cortes</h2></div>
+    </main>
+    
+</body>
+</html>
